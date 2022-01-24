@@ -5,6 +5,7 @@ AllCops:
   NewCops: enable
   TargetRubyVersion: 3.0
   DisplayCopNames: true
+  SuggestExtensions: false
   Exclude:
     - config/puma.rb
     - 'db/**/*.rb'
